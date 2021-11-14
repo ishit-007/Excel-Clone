@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title-bar">
+        <div class="name" contenteditable="true">Untitled Spreadsheet</div>
+        <div class="icon">
+          <i class="far fa-file-excel"></i>
+        </div>
+        <div class="users">
+          <div
+            class="circle"
+            style="
+              left: 28.125px;
+              background-image: url(https://bestprofilepictures.com/wp-content/uploads/2021/04/Cool-Profile-Picture-986x1024.jpg);
+              background-size: contain;
+            "
+          ></div>
+          <div
+            class="circle"
+            style="
+              left: 18.75px;
+              background-image: url(https://images.unsplash.com/photo-1532074205216-d0e1f4b87368?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d29tYW4lMjBwcm9maWxlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80);
+              background-size: contain;
+            "
+          ></div>
+          <div
+            class="circle"
+            style="
+              left: 9.375px;
+              background-image: url(https://lh3.googleusercontent.com/-JgnLLuJTAxg/VUOrPShQAoI/AAAAAAAAAwc/zcMrWVCsEMg/s640/Simple%252520Canadian%252520Girl%252520Photos%252520%252520MyWhatsappimages.blogspot.com%252520%252520Whats%252520app%252520photos%252520IMG_132978471959568.jpg);
+              background-size: contain;
+            "
+          ></div>
+          <div
+            class="circle"
+            style="
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              font-size: 12.25px;
+            "
+          >
+            +1
+          </div>
+        </div>
+      </div>
+      <div class="menu-bar">
+        <div class="filebtn">File</div>
+        <div class="helpbtn">Help</div>
+        <i title="Save SpreadSheet" class="far fa-save saveicon tooltip">
+          <!-- <span class="tooltiptext">Save Spreadsheet</span> -->
+        </i>
+        <i class="fas fa-broom clearicon" title="Clear Previous Data"></i>
+      </div>
+      <div class="menu-options">
+        <div class="bold-italics-underline">
+          <!-- <i class="fas fa-bold"></i> -->
+          <span class="boldouterspan">
+            <span class="material-icons bold"> format_bold </span>
+          </span>
+          <span class="italicsouterspan">
+            <span class="material-icons italics"> format_italic </span>
+          </span>
+          <span class="underlineouterspan">
+            <span class="material-icons underline"> format_underlined </span>
+          </span>
+        </div>
+        <div class="font-type-size">
+          <select class="fontstyleselect">
+            <option value="Times New Roman" selected>Times New Roman</option>
+            <option value="Arial">Arial</option>
+            <option value="sans-serif">sans-serif</option>
+            <option value="Comic Sans MS">Comic Sans MS</option>
+          </select>
+          <select class="fontsizeselect">
+            <b>
+              <option value="medium" selected>Select Size</option>
+              <option value="xx-small">XXS</option>
+              <option value="x-small">XS</option>
+              <option value="small">S</option>
+              <option value="medium">M</option>
+              <option value="large">L</option>
+              <option value="x-large">XL</option>
+              <option value="xx-large">XXL</option>
+            </b>
+          </select>
+        </div>
+        <div class="align-cell-content">
+          <span class="material-icons"> format_align_left </span>
+          <span class="material-icons"> format_align_center </span>
+          <span class="material-icons"> format_align_right </span>
+        </div>
+        <div class="cell-color-options">
+          <span class="material-icons bgcolor"> format_color_fill </span>
+          <span class="material-icons textcolor"> format_color_text </span>
+        </div>
+      </div>
+      <div class="formula-section">
+        <div class="selected-cell-div"></div>
+        <input type="text" class="formula-bar-div" />
+      </div>
+      <div class="grid">
+        <div class="blank-corner"></div>
+        <div class="row-numbers-section"></div>
+        <div class="column-tags-section"></div>
+        <div class="cells-section"></div>
+      </div>
+      <div class="sheets-section"></div>
+    </div>
+    <script src="./script.js"></script>
+    <script src="./stylescript.js"></script>
+  </body>
+</html>
